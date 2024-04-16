@@ -43,6 +43,7 @@ export default {
         try {
             const response = await axios.get(`https://equran.id/api/v2/surat/${this.idItem}`)
             this.data = response.data.data;
+            console.log(this.data);
         } catch {
         }
     },
