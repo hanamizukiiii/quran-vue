@@ -52,6 +52,7 @@ export default {
   async created() {
     const response = await axios.get("https://equran.id/api/v2/surat");
     this.data = response.data.data;
+    console.log(this.data);
   },
 };
 </script>
