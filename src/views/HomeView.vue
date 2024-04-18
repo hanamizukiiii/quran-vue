@@ -19,7 +19,7 @@
             <router-link :to="'/surat/' + item.nomor" class="block">
               <h2 class="text-lg font-semibold text-gray-800">{{ item.nama }}</h2>
               <p class="text-gray-600">{{ item.namaLatin }}</p>
-              <p class="text-sm text-gray-700 mt-2">Number of Verses: {{ item.jumlahAyat }}</p>
+              <p class="text-sm text-gray-700 mt-2">total ayat: {{ item.jumlahAyat }}</p>
             </router-link>
           </div>
         </div>
